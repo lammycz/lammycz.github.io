@@ -66,7 +66,7 @@ export default function Hero() {
             </button>
             <div className="w-full h-full relative">
               <video
-                src="/assets/videos/showreel.mp4"
+                src="/public/assets/videos/showreel.mp4"
                 className="w-full h-full object-cover"
                 autoPlay
                 muted={false}

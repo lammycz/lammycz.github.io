@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "motion/react";
 const faqs = [
   {
     question: "What services does Lammy offer?",
-    answer: "Is offer Minecraft server trailers, 3D animation, modeling, rendering, and release visuals. I can also help with social media content like shorts and TikToks.",
+    answer: "Is offer sMinecraft server trailers, 3D animation, modeling, rendering, and release visuals. I can also help with social media content like shorts and TikToks.",
   },
   {
     question: "Do you only work in the Minecraft community?",

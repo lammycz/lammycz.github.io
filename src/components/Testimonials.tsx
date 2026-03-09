@@ -82,7 +82,7 @@ export default function Testimonials() {
         </span>
         <h2 className="text-4xl md:text-6xl font-black uppercase mb-6 leading-[0.9]">
           Trusted by <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">the community.</span>
+          <span className="text-lammy-blue">the community.</span>
         </h2>
       </FadeIn>
 

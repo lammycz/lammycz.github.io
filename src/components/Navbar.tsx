@@ -3,10 +3,11 @@ import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const navLinks = [
-  { name: "Work", href: "#work" },
-  { name: "Pricing", href: "#pricing" },
   { name: "About", href: "#about" },
-  { name: "Contact", href: "#footer" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Work", href: "#work" },
+  { name: "Testimonials", href: "#testimonials" },
+  { name: "FAQ", href: "#faq" }
 ];
 
 export default function Navbar() {
@@ -23,9 +24,9 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 w-full ${
         isScrolled 
-          ? "py-4 bg-black/80 backdrop-blur-md" 
+          ? "py-4 bg-black/10 backdrop-blur-md" 
           : "py-8 bg-transparent"
       }`}
     >
@@ -53,7 +54,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://www.fiverr.com/"
+            href="https://www.fiverr.com/lammycz/record-and-edit-a-minecraft-trailer-or-teaser-for-you?&pckg_id=3"
             target="_blank"
             rel="noreferrer"
             className="ml-2 bg-lammy-blue hover:bg-lammy-blue-dim text-white px-6 py-2 rounded-full font-bold text-sm transition-all flex items-center gap-1 group"

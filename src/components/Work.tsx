@@ -217,7 +217,7 @@ export default function Work() {
 
                 {/* Center Play Button */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                  <div className="bg-white/10 backdrop-blur-md p-4 rounded-full border border-white/20 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
+                  <div className="bg-white/10 p-4 rounded-full border border-white/20 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
                     <Play className="w-6 h-6 text-white fill-white ml-1" />
                   </div>
                 </div>

@@ -4,10 +4,10 @@ import { motion, useInView, useSpring, useTransform } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { label: "PROJECTS_DELIVERED", value: 150, suffix: "+" },
-  { label: "CLIENT_SATISFACTION", value: 5, suffix: "/5" },
-  { label: "YEARS_EXPERIENCE", value: 4, suffix: "+" },
-  { label: "TRAILERS_CREATED", value: 80, suffix: "+" },
+  { label: "PROJECTS DELIVERED", value: 20, suffix: "+" },
+  { label: "CLIENT SATISFACTION", value: 5, suffix: "/5" },
+  { label: "YEARS EXPERIENCE", value: 7, suffix: "+" },
+  { label: "AVERAGE RESPONSE TIME", value: 1, suffix: " hour" },
 ];
 
 function Counter({ value, suffix }: { value: number; suffix: string }) {
@@ -45,24 +45,24 @@ export default function Stats() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
         
         {/* Left Column: Profile (Clean Design) */}
-        <div className="lg:col-span-4 flex flex-col items-center text-center lg:text-left">
+        <div className="lg:col-span-4 flex flex-col items-center">
           <FadeIn>
-            <div className="relative mb-8 group flex justify-center lg:justify-start">
+            <div className="relative mb-8 group flex justify-center">
               <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full p-1 bg-white/5 backdrop-blur-sm border border-white/10">
                 <img 
-                  src="https://picsum.photos/seed/lammyprofile/400/400" 
+                  src="/public/assets/logo.jpg" 
                   alt="Lammy Profile" 
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
             </div>
 
-            <h3 className="text-5xl font-black uppercase tracking-tighter mb-2">Lammy</h3>
-            <p className="text-lammy-blue font-bold uppercase tracking-widest text-sm mb-6">
-              Video Editor & Creative Director
+            <h3 className="text-5xl font-black uppercase tracking-tighter mb-2 text-center">Lammy</h3>
+            <p className="text-lammy-blue font-bold uppercase tracking-widest text-sm mb-6 text-center max-w-[250px] mx-auto">
+              Turning great ideas into legendary trailers!
             </p>
 
-            <div className="flex gap-4 justify-center lg:justify-start">
+            <div className="flex gap-4 justify-center">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
                 <Twitter className="w-4 h-4" />
               </a>
@@ -84,7 +84,7 @@ export default function Stats() {
               </span>
               <h2 className="text-4xl md:text-6xl font-black uppercase mb-8 leading-[0.9]">
                 Visuals built for <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">server launches.</span>
+                <span className="text-lammy-blue">server launches.</span>
               </h2>
               <div className="space-y-6 text-gray-400 text-lg md:text-xl leading-relaxed max-w-3xl font-light border-l-2 border-white/10 pl-8">
                 <p>

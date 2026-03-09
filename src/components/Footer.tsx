@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-start md:justify-end gap-4">
-            <a href="mailto:contact@example.com" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
+            <a href="mailto:lammy@volny.cz" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
               <Mail className="w-5 h-5" />
             </a>
             <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">

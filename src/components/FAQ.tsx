@@ -5,20 +5,40 @@ import { motion, AnimatePresence } from "motion/react";
 
 const faqs = [
   {
-    question: "What services does Lammy offer?",
-    answer: "Is offer sMinecraft server trailers, 3D animation, modeling, rendering, and release visuals. I can also help with social media content like shorts and TikToks.",
+    question: "How do I place an order?",
+    answer: "Simply send me a message on Fiverr with some details about your trailer. Then, you can choose from one of the three tiers. Don’t worry—I’ll help you pick the option that fits your needs best.",
   },
   {
-    question: "Do you only work in the Minecraft community?",
-    answer: "While I specialize in Minecraft and Hytale, my skills in video editing and 3D animation transfer to other games and styles. Contact me to discuss your project.",
+    question: "How can I track my order?",
+    answer: "I’ll keep you updated throughout the entire process, so you’ll always know the progress of your trailer.",
   },
   {
-    question: "Can you match an existing style or brand?",
-    answer: "Absolutely. I can adapt to your server's branding guidelines, color palette, and existing visual identity to ensure consistency.",
+    question: "How do I create a custom order?",
+    answer: "Once we discuss your server and budget, I’ll send you a custom offer. All you need to do is accept it, and we’re ready to start!",
   },
   {
-    question: "What is your pricing?",
-    answer: "Pricing varies based on the complexity and length of the project. Please check my Fiverr gigs or contact me directly for a custom quote.",
+    question: "Which Minecraft versions do you work with?",
+    answer: "I can work with any Minecraft version.",
+  },
+  {
+    question: "Can you record on Bedrock Edition?",
+    answer: "Unfortunately, I cannot record directly on Bedrock Edition. However, if you provide converted world files from Bedrock to Java, I can use them to create cinematic footage for your trailer.",
+  },
+  {
+    question: "Do you provide the footage?",
+    answer: "Yes! I will record cinematic footage directly on your server.",
+  },
+  {
+    question: "Can you create trailers in languages other than English?",
+    answer: "Absolutely! I can create trailers in various languages. Just provide the translated text, and I’ll ensure it’s fully incorporated into your trailer.",
+  },
+  {
+    question: "Can you create trailers for TikTok, Reels, or Shorts?",
+    answer: "Yes! I have experience creating trailers for vertical formats and short-form platforms.",
+  },
+  {
+    question: "Can you make Minecraft animations?",
+    answer: "Yes! I can create custom in-game animations to make your trailer truly cinematic and dynamic.",
   },
 ];
 
@@ -32,7 +52,7 @@ export default function FAQ() {
           FAQ
         </span>
         <h2 className="text-4xl font-bold uppercase mb-4">
-          Questions, Answered
+          Questions? Answered!
         </h2>
       </FadeIn>
 

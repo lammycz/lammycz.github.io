@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
-    name: "ShushMC",
-    role: "5K+ Discord Members",
-    text: "Great work, been working with the studio for years now. They have always delivered what I was looking for!",
-    avatar: "https://picsum.photos/seed/user1/100/100",
+    name: "voxcraftnetwork",
+    role: "Popular Server Owner",
+    text: "I think the result is incredible, I totally recommend it.",
+    avatar: "/assets/clients/voxcraftnetwork.png",
     trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
   },
   {

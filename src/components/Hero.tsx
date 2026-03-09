@@ -203,7 +203,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            Premium Minecraft trailers and cinematics designed to turn viewers into players.
+            Premium Minecraft trailers designed to amaze all viewers.
           </motion.p>
 
           <motion.div

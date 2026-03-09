@@ -116,11 +116,11 @@ export default function Work() {
       
       <FadeIn className="mb-16 text-center">
         <span className="text-lammy-blue font-bold text-sm uppercase tracking-widest mb-4 block">
-          Selected Works
+          Portfolio
         </span>
         <h2 className="text-4xl md:text-6xl font-black uppercase mb-6 leading-[0.9]">
-          The <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Masterpieces</span>
+          The
+          <span className="text-white">Masterpieces</span>
         </h2>
 
         {/* Filter Tabs - Enhanced */}

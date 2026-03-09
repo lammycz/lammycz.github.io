@@ -119,7 +119,7 @@ export default function Hero() {
       {/* Hidden preload video */}
       <video
         ref={preloadVideoRef}
-        src="/public/assets/videos/showreel.mp4"
+        src="https://github.com/lammycz/lammycz.github.io/releases/download/1.0/showreel.mp4"
         preload="auto"
         style={{ display: 'none' }}
       />
@@ -145,7 +145,7 @@ export default function Hero() {
               {videoLoaded ? (
                 <video
                   ref={videoRef}
-                  src="/public/assets/videos/showreel.mp4"
+                  src="https://github.com/lammycz/lammycz.github.io/releases/download/1.0/showreel.mp4"
                   className={`w-full h-full object-cover ${showReel ? 'transition-all duration-1000' : ''} ${
                     showReel && videoReady ? "blur-0" : "blur-xl"
                   }`}

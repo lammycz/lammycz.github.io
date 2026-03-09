@@ -50,7 +50,7 @@ export default function Stats() {
             <div className="relative mb-8 group flex justify-center">
               <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full p-1 bg-white/5 backdrop-blur-sm border border-white/10">
                 <img 
-                  src="/public/assets/logo.jpg" 
+                  src="/assets/logo.jpg" 
                   alt="Lammy Profile" 
                   className="w-full h-full object-cover rounded-full"
                 />

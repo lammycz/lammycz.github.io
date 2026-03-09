@@ -108,6 +108,27 @@ const testimonials = [
     text: "Good job thanks 🙏🏽 ",
     avatar: "/assets/clients/kisbertok24.png",
     trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "tsxtoxicshadowx",
+    role: "Server Owner",
+    text: "Just amazing the server wasn't complete and somehow he made it 40 seconds long and just amazing exactly how I wanted it I will work with them again soon!",
+    avatar: "/assets/clients/tsxtoxicshadowx.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "sonice1995",
+    role: "Server Owner",
+    text: "es hat meine Erwartungen übertroffen Wow  mega zufrieden ",
+    avatar: "/assets/clients/sonice1995.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "johngra759",
+    role: "Server Owner",
+    text: "Very nice Work ",
+    avatar: "/assets/clients/johngra759.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
   }
 ];
 

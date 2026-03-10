@@ -72,13 +72,13 @@ export default function Footer() {
               Lammy
             </a>
             <p className="text-gray-500 max-w-xs text-sm">
-              Lammy creates premium visuals and development for Minecraft and Hytale, trailers, animation, modeling, rendering/lighting, release visuals, and custom tech.
+              Lammy creates premium trailers for servers, mods, maps and much more!
             </p>
           </div>
 
           <div className="flex justify-start md:justify-end gap-4">
             <DiscordButton />
-            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
+            <a href="https://www.youtube.com/watch?v=lxRGMJId0xo&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
               <IconBrandYoutube className="w-5 h-5" />
             </a>
             <a href="https://www.fiverr.com/s/wk88ePB" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
@@ -95,7 +95,7 @@ export default function Footer() {
             Made by Lammy &copy; 2026. All Rights Reserved.
           </div>
           <div className="mt-4 md:mt-0">
-            Not affiliated with Mojang Studios or Hypixel Studios.
+            Not affiliated with Mojang Studios.
           </div>
         </div>
       </div>

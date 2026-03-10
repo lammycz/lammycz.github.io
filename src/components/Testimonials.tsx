@@ -9,133 +9,140 @@ const testimonials = [
     role: "Server Owner",
     text: "Its been a pleasure working with this guy, 100% recommend, hes the goat fr the attention and communication is amazing",
     avatar: "/assets/clients/bingos_.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=jJuzd37PYQg&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=21"
   },
   {
     name: "voxcraftnetwork",
     role: "Server Owner",
     text: "I think the result is incredible, I totally recommend it.",
     avatar: "/assets/clients/voxcraftnetwork.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=jhAMB5AWS10&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=20"
   },
   {
     name: "brimar11",
     role: "Server Owner",
     text: "To the people who are looking for a trailer that is a fair price and not overpriced, I fully recommend this freelancer. Thank you for the outstanding work you have put into this video.",
     avatar: "/assets/clients/brimar11.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=hppUxGWLObE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=18"
   },
   {
     name: "igor_ilic",
-    role: "Server Owner",
-    text: "Truly pleased with the work they did. During the planing they helped me a lot and asked the right questions, and when they needed something they didn't hesitate to ask for to make the video that much better. From my vague concept to their quality work. ",
+    role: "Mod Developer",
+    text: "Truly pleased with the work they did. During the planing they helped me a lot and asked the right questions, and when they needed something they didn't hesitate to ask for to make the video that much better. From my vague concept to their quality work.",
     avatar: "/assets/clients/igor_ilic.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=M4z6opu0VQY&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=17"
+  },
+  {
+    name: "adam01548mc",
+    role: "Server Owner",
+    text: "INCREDIBLE, THANK YOU!",
+    avatar: "/assets/clients/adam01548mc.png",
+    trailerUrl: "https://www.youtube.com/watch?v=hEBV8foikt8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=21"
   },
   {
     name: "hampedumpe",
     role: "Server Owner",
     text: "Really easy to work with, amazing response time! And just a nice guy in general!",
     avatar: "/assets/clients/hampedumpe.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=DEb4Du1ncQg&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=16"
   },
   {
     name: "champixn_yt",
     role: "Server Owner",
     text: "he made my trailer like exactly what u wanted",
     avatar: "/assets/clients/champixn_yt.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=KBp2-UPQqSI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=15"
   },
   {
     name: "handyfon",
-    role: "Server Owner",
+    role: "Mod Developer",
     text: "It was a pleasure working with Lammy, he effortlessy met my requirements and had no trouble reshooting some shots multiple times, always quick to respond. Kept me regularely updated how its going and checking in. Highly recommend this him for any of your projects.",
     avatar: "/assets/clients/handyfon.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=zGwkhKbb-sI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=14"
   },
   {
     name: "magicallands",
     role: "Server Owner",
     text: "fast response, great quality, I'm very happy with the result :)",
     avatar: "/assets/clients/magicallands.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=qt7x9PZUG3A&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=13"
   },
   {
     name: "goldeaglep",
-    role: "Server Owner",
+    role: "Popular Resourcepack Developer",
     text: "Very good communicator, did everything I asked for and more. Very accommodating to my request.",
     avatar: "/assets/clients/goldeaglep.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=32JxlDLxgaU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=12"
   },
   {
     name: "windswept276",
     role: "Server Owner",
     text: "Literally the best creator that I have worked with. Will for sure be using him in the future. ",
     avatar: "/assets/clients/windswept276.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=7BXyFQXhdu4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=11"
   },
   {
     name: "airhead022946",
     role: "Server Owner",
     text: "Great job! Thank you for your time and patience! ",
     avatar: "/assets/clients/airhead022946.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=bv5Awgnh9GA&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=10"
   },
   {
     name: "imran_lives",
-    role: "Server Owner",
+    role: "Influencer",
     text: "point of view from ambulance driver running into the building is really beautiful, thanks for the added scenes in the park ending too.",
     avatar: "/assets/clients/imran_lives.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=qdSDjlrjPT8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=9"
   },
   {
     name: "natewinfrey",
     role: "Server Owner",
     text: "By far exceeded my expectations. Amazing work!",
     avatar: "/assets/clients/natewinfrey.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=tfEGvqLBGGk&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=8"
   },
   {
     name: "fritz432",
-    role: "Server Owner",
+    role: "Map Creator",
     text: "I'm absolutely thrilled with my order! The trailer was delivered quickly and impressed me with its top-notch quality. The final result was exactly what I had in mind – professional, creative, and made with great attention to detail. Communication was super friendly and reliable throughout. I’ll definitely order again and can highly recommend it to anyone. Huge thanks for the amazing service – and most of all: Thank you, Lammy! 🙏",
     avatar: "/assets/clients/fritz432.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=3DbDjrl_Go4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=7"
   },
   {
     name: "lkjh141",
     role: "Server Owner",
     text: "For this price, the seller has outdone themself. I asked for 2 revision, no question asked, he did what I ask for. I will for sure buy from him again. The communication and final delivered product were just amazing and broke all of my expectations.",
     avatar: "/assets/clients/lkjh141.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=KR1dZ94ypmE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=5"
   },
   {
     name: "kisbertok24",
     role: "Server Owner",
     text: "Good job thanks 🙏🏽 ",
     avatar: "/assets/clients/kisbertok24.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=OFlBfF3evDE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=4"
   },
   {
     name: "tsxtoxicshadowx",
     role: "Server Owner",
     text: "Just amazing the server wasn't complete and somehow he made it 40 seconds long and just amazing exactly how I wanted it I will work with them again soon!",
     avatar: "/assets/clients/tsxtoxicshadowx.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=Q0IBIqoh7Uc&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=3"
   },
   {
     name: "sonice1995",
     role: "Server Owner",
     text: "es hat meine Erwartungen übertroffen Wow  mega zufrieden ",
     avatar: "/assets/clients/sonice1995.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=gAepC20HjZU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=2"
   },
   {
     name: "johngra759",
     role: "Server Owner",
     text: "Very nice Work ",
     avatar: "/assets/clients/johngra759.png",
-    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+    trailerUrl: "https://www.youtube.com/watch?v=lxRGMJId0xo&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz"
   }
 ];
 

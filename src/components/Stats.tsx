@@ -122,7 +122,7 @@ export default function Stats() {
 
             <div className="flex gap-4 justify-center">
               <DiscordButton />
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
+              <a href="https://www.youtube.com/watch?v=lxRGMJId0xo&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
                 <IconBrandYoutube className="w-4 h-4" />
               </a>
               <a href="https://www.fiverr.com/s/wk88ePB" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">

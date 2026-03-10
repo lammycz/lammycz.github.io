@@ -15,109 +15,212 @@ const projects = [
     id: 2,
     title: "Minecraft Server Trailer #20 - VoxCraft Network",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/voxcraftjpg.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=jhAMB5AWS10&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=20",
+=======
     image: "/assets/thumb/voxcraftjpg.jpg",
     videoUrl: "https://www.youtube.com/embed/jhAMB5AWS10?autoplay=1&mute=0",
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
   },
   {
     id: 3,
     title: "Minecraft Server Trailer #19 - OveraCraft",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/brian-overacraft.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=hppUxGWLObE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=19",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/brian-overacraft.jpg",
     videoUrl: "https://www.youtube.com/embed/hppUxGWLObE?autoplay=1&mute=0",
   },
   {
     id: 4,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #18 - LogiCore",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/igor-logicore.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=M4z6opu0VQY&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=17",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/igor-logicore.jpg",
     videoUrl: "https://www.youtube.com/embed/M4z6opu0VQY?autoplay=1&mute=0",
   },
   {
     id: 5,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #17 - SCP Roleplay Server",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/adam-scp-roleplay.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=hEBV8foikt8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=17",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/adam-scp-roleplay.jpg",
     videoUrl: "https://www.youtube.com/embed/hEBV8foikt8?autoplay=1&mute=0",
   },
   {
     id: 6,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #16 - World Of Dracora",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/hampedumpe-drakora.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=DEb4Du1ncQg&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=16",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/hampedumpe-drakora.jpg",
     videoUrl: "https://www.youtube.com/embed/DEb4Du1ncQg?autoplay=1&mute=0",
   },
   {
     id: 7,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #15 - Void SMP",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/champixn-voidsmp.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=KBp2-UPQqSI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=15",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/champixn-voidsmp.jpg",
     videoUrl: "https://www.youtube.com/embed/KBp2-UPQqSI?autoplay=1&mute=0",
   },
   {
     id: 8,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #14 - Cobblemon: Ball Stickers",
     tier: "Ultimate",
+<<<<<<< HEAD
+    image: "/assets/thumb/handyfon-cobblemon.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=zGwkhKbb-sI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=14",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/handyfon-cobblemon.jpg",
     videoUrl: "https://www.youtube.com/embed/zGwkhKbb-sI?autoplay=1&mute=0",
   },
   {
     id: 9,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #13 - Magical Lands",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/magicallands.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=qt7x9PZUG3A&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=13",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/magicallands.jpg",
     videoUrl: "https://www.youtube.com/embed/qt7x9PZUG3A?autoplay=1&mute=0",
   },
   {
     id: 10,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #12 - The Immersive Music Mod",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/goldeaglep-music-mod.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=32JxlDLxgaU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=12",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/goldeaglep-music-mod.jpg",
     videoUrl: "https://www.youtube.com/embed/32JxlDLxgaU?autoplay=1&mute=0",
   },
   {
     id: 11,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #11 - VitalCraft",
     tier: "Ultimate",
+<<<<<<< HEAD
+    image: "/assets/thumb/vitalcraft-thumbnail2.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=7BXyFQXhdu4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=11",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/vitalcraft-thumbnail2.jpg",
     videoUrl: "https://www.youtube.com/embed/7BXyFQXhdu4?autoplay=1&mute=0",
   },
   {
     id: 12,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #10 - VaporMC",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/airhead-vapormc.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=bv5Awgnh9GA&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=10",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/airhead-vapormc.jpg",
     videoUrl: "https://www.youtube.com/embed/bv5Awgnh9GA?autoplay=1&mute=0",
   },
   {
     id: 13,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #9 - Rescue",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/imran-rescue.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=qdSDjlrjPT8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=9",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/imran-rescue.jpg",
     videoUrl: "https://www.youtube.com/embed/qdSDjlrjPT8?autoplay=1&mute=0",
   },
   {
     id: 14,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #8 - MoneyCraft",
     tier: "Ultimate",
+<<<<<<< HEAD
+    image: "/assets/thumb/natewinfrey-moneycraft.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=tfEGvqLBGGk&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=8",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/natewinfrey-moneycraft.jpg",
     videoUrl: "https://www.youtube.com/embed/tfEGvqLBGGk?autoplay=1&mute=0",
   },
   {
     id: 15,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #7 - Panzerparty",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/fritz-panzerparty.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=3DbDjrl_Go4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=7",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/fritz-panzerparty.jpg",
     videoUrl: "https://www.youtube.com/embed/3DbDjrl_Go4?autoplay=1&mute=0",
   },
   {
     id: 16,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #6 - KnockFFA",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/fritz-nockffa.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=mWvcDg8mXAM&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=6",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/fritz-nockffa.jpg",
     videoUrl: "https://www.youtube.com/embed/mWvcDg8mXAM?autoplay=1&mute=0",
   },
   {
     id: 17,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #5 - Kaminari Craft",
     tier: "Pro",
     image: "tessada",
@@ -127,43 +230,69 @@ const projects = [
     id: 18,
     title: "replaceds",
     tier: "Starter",
-    image: "public/assets/thumb/kaminaricraft-smp.jpg",
+    image: "/assets/thumb/kaminaricraft-smp.jpg",
     videoUrl: "test",
   },
   {
     id: 19,
     title: "Minecraft Server Trailer #4 - Shadow Runes",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/shadowrunes-smp.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=OFlBfF3evDE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=4",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/shadowrunes-smp.jpg",
     videoUrl: "https://www.youtube.com/embed/OFlBfF3evDE?autoplay=1&mute=0",
   },
   {
     id: 20,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #3 - Toxic SMP",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/toxic-smp.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=Q0IBIqoh7Uc&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=3",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/toxic-smp.jpg",
     videoUrl: "https://www.youtube.com/embed/Q0IBIqoh7Uc?autoplay=1&mute=0",
   },
   {
     id: 21,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #2 - SoNiceCitybuild",
     tier: "Starter",
+<<<<<<< HEAD
+    image: "/assets/thumb/sonicecitybuild-server.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=gAepC20HjZU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=3",
+  },{
+    id: 1,
+=======
     image: "public/assets/thumb/sonicecitybuild-server.jpg",
     videoUrl: "https://www.youtube.com/embed/gAepC20HjZU?autoplay=1&mute=0",
   },
   {
     id: 22,
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
     title: "Minecraft Server Trailer #1 - Superflat World",
     tier: "Pro",
+<<<<<<< HEAD
+    image: "/assets/thumb/superflat-world-trailer.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=lxRGMJId0xo&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=1",
+=======
     image: "public/assets/thumb/superflat-world-trailer.jpg",
     videoUrl: "https://www.youtube.com/embed/lxRGMJId0xo?autoplay=1&mute=0",
+>>>>>>> b0db3a53e35c423725f3e7b1103f937cfef61402
   }
 ];
 
 const tabs = [
-  { id: "Starter", label: "Starter", icon: IconBolt, desc: "Perfect for new servers. 60s trailer with essential editing." },
-  { id: "Pro", label: "Pro", icon: IconSparkles, desc: "High-end editing with motion graphics and sound design." },
-  { id: "Ultimate", label: "Ultimate", icon: IconCrown, desc: "The complete package. In-game animation, VFX, and custom assets." },
+  { id: "Starter", label: "Starter", icon: IconBolt, desc: "Perfect for a quick showcase of your server." },
+  { id: "Pro", label: "Pro", icon: IconSparkles, desc: "Step up your servers presentation with cinematic flair." },
+  { id: "Ultimate", label: "Ultimate", icon: IconCrown, desc: "The ultimate cinematic experience for your server." },
 ];
 
 export default function Work() {

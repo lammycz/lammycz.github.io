@@ -120,15 +120,8 @@ const projects = [
     id: 17,
     title: "Minecraft Server Trailer #5 - Kaminari Craft",
     tier: "Pro",
-    image: "tessada",
+    image: "/assets/thumb/kaminaricraft",
     videoUrl: "https://www.youtube.com/embed/KR1dZ94ypmE?autoplay=1&mute=0",
-  },
-  {
-    id: 18,
-    title: "replaceds",
-    tier: "Starter",
-    image: "/assets/thumb/kaminaricraft-smp.jpg",
-    videoUrl: "test",
   },
   {
     id: 19,

@@ -9,135 +9,154 @@ const projects = [
     title: "Minecraft Server Trailer #21 - Qatar SMP",
     tier: "Pro",
     image: "/assets/thumb/bingos-quatarsmp.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=jJuzd37PYQg&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=22",
+    videoUrl: "https://www.youtube.com/embed/jJuzd37PYQg?autoplay=1&mute=0",
   },
   {
-    id: 1,
+    id: 2,
     title: "Minecraft Server Trailer #20 - VoxCraft Network",
     tier: "Pro",
     image: "public/assets/thumb/voxcraftjpg.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=jhAMB5AWS10&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=20",
+    videoUrl: "https://www.youtube.com/embed/jhAMB5AWS10?autoplay=1&mute=0",
   },
   {
-    id: 1,
+    id: 3,
     title: "Minecraft Server Trailer #19 - OveraCraft",
     tier: "Pro",
     image: "public/assets/thumb/brian-overacraft.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=hppUxGWLObE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=19",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/hppUxGWLObE?autoplay=1&mute=0",
+  },
+  {
+    id: 4,
     title: "Minecraft Server Trailer #18 - LogiCore",
     tier: "Pro",
     image: "public/assets/thumb/igor-logicore.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=M4z6opu0VQY&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=17",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/M4z6opu0VQY?autoplay=1&mute=0",
+  },
+  {
+    id: 5,
     title: "Minecraft Server Trailer #17 - SCP Roleplay Server",
     tier: "Starter",
     image: "public/assets/thumb/adam-scp-roleplay.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=hEBV8foikt8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=17",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/hEBV8foikt8?autoplay=1&mute=0",
+  },
+  {
+    id: 6,
     title: "Minecraft Server Trailer #16 - World Of Dracora",
     tier: "Pro",
     image: "public/assets/thumb/hampedumpe-drakora.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=DEb4Du1ncQg&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=16",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/DEb4Du1ncQg?autoplay=1&mute=0",
+  },
+  {
+    id: 7,
     title: "Minecraft Server Trailer #15 - Void SMP",
     tier: "Starter",
     image: "public/assets/thumb/champixn-voidsmp.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=KBp2-UPQqSI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=15",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/KBp2-UPQqSI?autoplay=1&mute=0",
+  },
+  {
+    id: 8,
     title: "Minecraft Server Trailer #14 - Cobblemon: Ball Stickers",
     tier: "Ultimate",
     image: "public/assets/thumb/handyfon-cobblemon.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=zGwkhKbb-sI&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=14",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/zGwkhKbb-sI?autoplay=1&mute=0",
+  },
+  {
+    id: 9,
     title: "Minecraft Server Trailer #13 - Magical Lands",
     tier: "Starter",
     image: "public/assets/thumb/magicallands.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=qt7x9PZUG3A&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=13",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/qt7x9PZUG3A?autoplay=1&mute=0",
+  },
+  {
+    id: 10,
     title: "Minecraft Server Trailer #12 - The Immersive Music Mod",
     tier: "Pro",
     image: "public/assets/thumb/goldeaglep-music-mod.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=32JxlDLxgaU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=12",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/32JxlDLxgaU?autoplay=1&mute=0",
+  },
+  {
+    id: 11,
     title: "Minecraft Server Trailer #11 - VitalCraft",
     tier: "Ultimate",
     image: "public/assets/thumb/vitalcraft-thumbnail2.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=7BXyFQXhdu4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=11",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/7BXyFQXhdu4?autoplay=1&mute=0",
+  },
+  {
+    id: 12,
     title: "Minecraft Server Trailer #10 - VaporMC",
     tier: "Pro",
     image: "public/assets/thumb/airhead-vapormc.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=bv5Awgnh9GA&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=10",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/bv5Awgnh9GA?autoplay=1&mute=0",
+  },
+  {
+    id: 13,
     title: "Minecraft Server Trailer #9 - Rescue",
     tier: "Pro",
     image: "public/assets/thumb/imran-rescue.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=qdSDjlrjPT8&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=9",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/qdSDjlrjPT8?autoplay=1&mute=0",
+  },
+  {
+    id: 14,
     title: "Minecraft Server Trailer #8 - MoneyCraft",
     tier: "Ultimate",
     image: "public/assets/thumb/natewinfrey-moneycraft.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=tfEGvqLBGGk&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=8",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/tfEGvqLBGGk?autoplay=1&mute=0",
+  },
+  {
+    id: 15,
     title: "Minecraft Server Trailer #7 - Panzerparty",
     tier: "Pro",
     image: "public/assets/thumb/fritz-panzerparty.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=3DbDjrl_Go4&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=7",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/3DbDjrl_Go4?autoplay=1&mute=0",
+  },
+  {
+    id: 16,
     title: "Minecraft Server Trailer #6 - KnockFFA",
     tier: "Pro",
     image: "public/assets/thumb/fritz-nockffa.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=mWvcDg8mXAM&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=6",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/mWvcDg8mXAM?autoplay=1&mute=0",
+  },
+  {
+    id: 17,
     title: "Minecraft Server Trailer #5 - Kaminari Craft",
     tier: "Pro",
     image: "tessada",
-    videoUrl: "https://www.youtube.com/watch?v=KR1dZ94ypmE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=5",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/KR1dZ94ypmE?autoplay=1&mute=0",
+  },
+  {
+    id: 18,
     title: "replaceds",
     tier: "Starter",
     image: "public/assets/thumb/kaminaricraft-smp.jpg",
     videoUrl: "test",
-  },{
-    id: 1,
+  },
+  {
+    id: 19,
     title: "Minecraft Server Trailer #4 - Shadow Runes",
     tier: "Starter",
     image: "public/assets/thumb/shadowrunes-smp.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=OFlBfF3evDE&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=4",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/OFlBfF3evDE?autoplay=1&mute=0",
+  },
+  {
+    id: 20,
     title: "Minecraft Server Trailer #3 - Toxic SMP",
     tier: "Starter",
     image: "public/assets/thumb/toxic-smp.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=Q0IBIqoh7Uc&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=3",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/Q0IBIqoh7Uc?autoplay=1&mute=0",
+  },
+  {
+    id: 21,
     title: "Minecraft Server Trailer #2 - SoNiceCitybuild",
     tier: "Starter",
     image: "public/assets/thumb/sonicecitybuild-server.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=gAepC20HjZU&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=3",
-  },{
-    id: 1,
+    videoUrl: "https://www.youtube.com/embed/gAepC20HjZU?autoplay=1&mute=0",
+  },
+  {
+    id: 22,
     title: "Minecraft Server Trailer #1 - Superflat World",
     tier: "Pro",
     image: "public/assets/thumb/superflat-world-trailer.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=lxRGMJId0xo&list=PLXqqHYuv3-cOhhVZO_t3kEo0T9jiXQQUz&index=1",
+    videoUrl: "https://www.youtube.com/embed/lxRGMJId0xo?autoplay=1&mute=0",
   }
 ];
 

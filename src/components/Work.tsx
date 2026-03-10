@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Minecraft Server Trailer #20 - VoxCraft Network",
     tier: "Pro",
-    image: "public/assets/thumb/voxcraftjpg.jpg",
+    image: "/assets/thumb/voxcraftjpg.jpg",
     videoUrl: "https://www.youtube.com/embed/jhAMB5AWS10?autoplay=1&mute=0",
   },
   {

@@ -1,5 +1,5 @@
 import { Section, FadeIn } from "./ui/Section";
-import { Plus, Minus } from "lucide-react";
+import { IconPlus, IconMinus } from "@tabler/icons-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -69,7 +69,7 @@ export default function FAQ() {
                     {faq.question}
                   </span>
                   <span className="text-white/50 group-hover:text-white transition-colors">
-                    {openIndex === index ? <Minus /> : <Plus />}
+                    {openIndex === index ? <IconMinus /> : <IconPlus />}
                   </span>
                 </button>
                 <AnimatePresence>

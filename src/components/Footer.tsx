@@ -1,4 +1,64 @@
-import { Youtube, Twitter, Instagram, Mail, MessageCircle } from "lucide-react";
+import { IconBrandYoutube, IconBrandDiscord, IconMail, IconCopy, IconCheck, IconBrandFiverr } from "@tabler/icons-react";
+import { useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
+
+function DiscordButton() {
+  const [iconState, setIconState] = useState<'discord' | 'copy' | 'check'>('discord');
+
+  const handleClick = async () => {
+    try {
+      await navigator.clipboard.writeText('lammycz');
+      setIconState('copy');
+      setTimeout(() => setIconState('check'), 500);
+      setTimeout(() => setIconState('discord'), 2000);
+    } catch (err) {
+      console.error('Failed to copy Discord ID:', err);
+    }
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+      className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110"
+    >
+      <AnimatePresence mode="wait">
+        {iconState === 'discord' && (
+          <motion.div
+            key="discord"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconBrandDiscord className="w-5 h-5" />
+          </motion.div>
+        )}
+        {iconState === 'copy' && (
+          <motion.div
+            key="copy"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconCopy className="w-5 h-5" />
+          </motion.div>
+        )}
+        {iconState === 'check' && (
+          <motion.div
+            key="check"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconCheck className="w-5 h-5" />
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </button>
+  );
+}
 
 export default function Footer() {
   return (
@@ -17,20 +77,15 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-start md:justify-end gap-4">
+            <DiscordButton />
+            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
+              <IconBrandYoutube className="w-5 h-5" />
+            </a>
+            <a href="https://www.fiverr.com/s/wk88ePB" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
+              <IconBrandFiverr className="w-5 h-5" />
+            </a>
             <a href="mailto:lammy@volny.cz" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
-              <Mail className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
-              <MessageCircle className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
-              <Youtube className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-12 h-12 bg-white/5 flex items-center justify-center rounded-full hover:bg-lammy-blue hover:text-white transition-all border border-white/10 hover:scale-110">
-              <Instagram className="w-5 h-5" />
+              <IconMail className="w-5 h-5" />
             </a>
           </div>
         </div>

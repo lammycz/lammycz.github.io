@@ -1,6 +1,6 @@
 import { Section, FadeIn } from "./ui/Section";
 import { useState } from 'react';
-import { Check, Clock, RotateCcw, X, Video, Sparkles, Image as ImageIcon } from "lucide-react";
+import { IconCheck, IconClock, IconRotateClockwise, IconX, IconVideo, IconSparkles, IconPhoto } from "@tabler/icons-react";
 
 const tiers = [
   {
@@ -8,13 +8,13 @@ const tiers = [
     price: "€13.55",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Color grading",
     features: [
-      { text: "3-day delivery", icon: Clock, included: true },
-      { text: "1 Revision", icon: RotateCcw, included: true },
-      { text: "Up to 1 minute running time", icon: Video, included: true },
-      { text: "Color grading", icon: Sparkles, included: true },
-      { text: "Sound design & mixing", icon: Check, included: true },
-      { text: "Motion graphics", icon: Check, included: false },
-      { text: "Thumbnail included", icon: ImageIcon, included: false }
+      { text: "3-day delivery", icon: IconClock, included: true },
+      { text: "1 Revision", icon: IconRotateClockwise, included: true },
+      { text: "Up to 1 minute running time", icon: IconVideo, included: true },
+      { text: "Color grading", icon: IconSparkles, included: true },
+      { text: "Sound design & mixing", icon: IconCheck, included: true },
+      { text: "Motion graphics", icon: IconCheck, included: false },
+      { text: "Thumbnail included", icon: IconPhoto, included: false }
     ],
     id: "Starter",
     link: "https://www.fiverr.com/lammycz/record-and-edit-a-minecraft-trailer-or-teaser-for-you?&pckg_id=1"
@@ -24,13 +24,13 @@ const tiers = [
     price: "€27.09",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Effects Speed ramps Color grading",
     features: [
-      { text: "4-day delivery", icon: Clock, included: true },
-      { text: "2 Revisions", icon: RotateCcw, included: true },
-      { text: "Up to 1 minute running time", icon: Video, included: true },
-      { text: "Color grading", icon: Sparkles, included: true },
-      { text: "Sound design & mixing", icon: Check, included: true },
-      { text: "Motion graphics", icon: Check, included: true },
-      { text: "Thumbnail included", icon: ImageIcon, included: false }
+      { text: "4-day delivery", icon: IconClock, included: true },
+      { text: "2 Revisions", icon: IconRotateClockwise, included: true },
+      { text: "Up to 1 minute running time", icon: IconVideo, included: true },
+      { text: "Color grading", icon: IconSparkles, included: true },
+      { text: "Sound design & mixing", icon: IconCheck, included: true },
+      { text: "Motion graphics", icon: IconCheck, included: true },
+      { text: "Thumbnail included", icon: IconPhoto, included: false }
     ],
     id: "Pro",
     link: "https://www.fiverr.com/lammycz/record-and-edit-a-minecraft-trailer-or-teaser-for-you?&pckg_id=2"
@@ -40,13 +40,13 @@ const tiers = [
     price: "€54.19",
     description: "Server/map Trailer 120 Seconds 1080P 120 FPS Effects Transitions Speed ramps In-game animation",
     features: [
-      { text: "5-day delivery", icon: Clock, included: true },
-      { text: "3 Revisions", icon: RotateCcw, included: true },
-      { text: "Up to 2 minutes running time", icon: Video, included: true },
-      { text: "Color grading", icon: Sparkles, included: true },
-      { text: "Sound design & mixing", icon: Check, included: true },
-      { text: "Motion graphics", icon: Check, included: true },
-      { text: "Thumbnail included", icon: ImageIcon, included: true }
+      { text: "5-day delivery", icon: IconClock, included: true },
+      { text: "3 Revisions", icon: IconRotateClockwise, included: true },
+      { text: "Up to 2 minutes running time", icon: IconVideo, included: true },
+      { text: "Color grading", icon: IconSparkles, included: true },
+      { text: "Sound design & mixing", icon: IconCheck, included: true },
+      { text: "Motion graphics", icon: IconCheck, included: true },
+      { text: "Thumbnail included", icon: IconPhoto, included: true }
     ],
     id: "Ultimate",
     link: "https://www.fiverr.com/lammycz/record-and-edit-a-minecraft-trailer-or-teaser-for-you?&pckg_id=3"
@@ -129,7 +129,7 @@ export default function Pricing() {
                           {feature.included ? (
                             <feature.icon className={`w-4 h-4 mt-0.5 transition-colors duration-300 ${isHovered ? "text-lammy-blue" : "text-gray-500"}`} />
                           ) : (
-                            <X className="w-4 h-4 mt-0.5 text-gray-500" />
+                            <IconX className="w-4 h-4 mt-0.5 text-gray-500" />
                           )}
                           <span className={`text-sm ${feature.included ? "text-gray-300" : "text-gray-300 line-through"}`}>
                             {feature.text}

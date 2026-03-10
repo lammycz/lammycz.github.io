@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { IconMenu2, IconX, IconArrowUpRight } from "@tabler/icons-react";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -60,7 +60,7 @@ export default function Navbar() {
             className="ml-2 bg-lammy-blue hover:bg-lammy-blue-dim text-white px-6 py-2 rounded-full font-bold text-sm transition-all flex items-center gap-1 group"
           >
             Order Now
-            <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
+            <IconArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
           </a>
         </div>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
           className="md:hidden text-white p-2"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          {isMobileMenuOpen ? <X /> : <Menu />}
+          {isMobileMenuOpen ? <IconX /> : <IconMenu2 />}
         </button>
       </div>
 

@@ -1,6 +1,6 @@
 import { Section, FadeIn } from "./ui/Section";
-import { Facebook, Youtube } from "lucide-react";
-import { motion, useInView, useSpring, useTransform } from "motion/react";
+import { IconBrandYoutube, IconBrandDiscord, IconMail, IconCopy, IconCheck, IconBrandFiverr } from "@tabler/icons-react";
+import { motion, useInView, useSpring, useTransform, AnimatePresence } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
@@ -36,6 +36,64 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
   );
 }
 
+function DiscordButton() {
+  const [iconState, setIconState] = useState<'discord' | 'copy' | 'check'>('discord');
+
+  const handleClick = async () => {
+    try {
+      await navigator.clipboard.writeText('lammycz');
+      setIconState('copy');
+      setTimeout(() => setIconState('check'), 500);
+      setTimeout(() => setIconState('discord'), 2000);
+    } catch (err) {
+      console.error('Failed to copy Discord ID:', err);
+    }
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+      className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all"
+    >
+      <AnimatePresence mode="wait">
+        {iconState === 'discord' && (
+          <motion.div
+            key="discord"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconBrandDiscord className="w-4 h-4" />
+          </motion.div>
+        )}
+        {iconState === 'copy' && (
+          <motion.div
+            key="copy"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconCopy className="w-4 h-4" />
+          </motion.div>
+        )}
+        {iconState === 'check' && (
+          <motion.div
+            key="check"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <IconCheck className="w-4 h-4" />
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </button>
+  );
+}
+
 export default function Stats() {
   return (
     <Section id="about" className="pt-12 pb-0 md:pb-0 relative overflow-hidden">
@@ -63,14 +121,15 @@ export default function Stats() {
             </p>
 
             <div className="flex gap-4 justify-center">
+              <DiscordButton />
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
+                <IconBrandYoutube className="w-4 h-4" />
+              </a>
               <a href="https://www.fiverr.com/s/wk88ePB" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
-                <Facebook className="w-4 h-4" />
+                <IconBrandFiverr className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
-                <Youtube className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
-                <Facebook className="w-4 h-4" />
+              <a href="mailto:lammy@volny.cz" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white hover:text-black transition-all">
+                <IconMail className="w-4 h-4" />
               </a>
             </div>
           </FadeIn>

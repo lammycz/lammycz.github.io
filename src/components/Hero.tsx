@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowRight, Play, X, Loader2 } from "lucide-react";
+import { IconArrowRight, IconPlayerPlay, IconX, IconLoader } from "@tabler/icons-react";
 import { useState, useEffect, useRef } from "react";
 
 const soundEntryValue = 0.002;
@@ -139,7 +139,7 @@ export default function Hero() {
               onClick={() => setShowReel(false)}
               className="absolute top-8 right-8 z-50 bg-white/10 hover:bg-white/20 p-3 rounded-full text-white transition-all backdrop-blur-md"
             >
-              <X className="w-8 h-8" />
+              <IconX className="w-8 h-8" />
             </button>
             <div className="w-full h-full relative crt-effect">
               {videoLoaded ? (
@@ -158,7 +158,7 @@ export default function Hero() {
               ) : (
                 <div className="w-full h-full flex items-center justify-center bg-black">
                   <div className="text-center text-white">
-                    <Loader2 className="w-12 h-12 animate-spin mx-auto mb-4" />
+                    <IconLoader className="w-12 h-12 animate-spin mx-auto mb-4" />
                     <p className="text-lg">Loading showreel...</p>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function Hero() {
               onClick={() => setShowReel(true)}
               className="w-full sm:w-auto px-8 py-4 bg-white text-black font-bold text-lg rounded-full hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
             >
-              Watch Showreel <Play className="w-5 h-5 fill-current" />
+              Watch Showreel <IconPlayerPlay className="w-5 h-5 fill-current" />
             </button>
             <a
               href="#pricing"

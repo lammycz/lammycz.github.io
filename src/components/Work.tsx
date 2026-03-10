@@ -1,5 +1,5 @@
 import { Section, FadeIn } from "./ui/Section";
-import { Play, X, Zap, Sparkles, Crown, Info } from "lucide-react";
+import { IconPlayerPlay, IconX, IconBolt, IconSparkles, IconCrown, IconInfoCircle } from "@tabler/icons-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -49,9 +49,9 @@ const projects = [
 ];
 
 const tabs = [
-  { id: "Starter", label: "Starter", icon: Zap, desc: "Perfect for new servers. 60s trailer with essential editing." },
-  { id: "Pro", label: "Pro", icon: Sparkles, desc: "High-end editing with motion graphics and sound design." },
-  { id: "Ultimate", label: "Ultimate", icon: Crown, desc: "The complete package. In-game animation, VFX, and custom assets." },
+  { id: "Starter", label: "Starter", icon: IconBolt, desc: "Perfect for new servers. 60s trailer with essential editing." },
+  { id: "Pro", label: "Pro", icon: IconSparkles, desc: "High-end editing with motion graphics and sound design." },
+  { id: "Ultimate", label: "Ultimate", icon: IconCrown, desc: "The complete package. In-game animation, VFX, and custom assets." },
 ];
 
 export default function Work() {
@@ -157,7 +157,7 @@ export default function Work() {
                   >
                     <div className="bg-black/90 border border-white/10 p-4 rounded-xl shadow-2xl backdrop-blur-xl">
                       <div className="flex items-center gap-2 mb-2">
-                        <Info className="w-4 h-4 text-lammy-blue" />
+                        <IconInfoCircle className="w-4 h-4 text-lammy-blue" />
                         <span className="text-[10px] font-black uppercase tracking-widest text-white">{tab.label}</span>
                       </div>
                       <p className="text-xs text-gray-400 leading-relaxed">{tab.desc}</p>
@@ -218,7 +218,7 @@ export default function Work() {
                 {/* Center Play Button */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   <div className="bg-white/10 p-4 rounded-full border border-white/20 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play className="w-6 h-6 text-white fill-white ml-1" />
+                    <IconPlayerPlay className="w-6 h-6 text-white fill-white ml-1" />
                   </div>
                 </div>
               </div>
@@ -249,7 +249,7 @@ export default function Work() {
                 onClick={() => setSelectedVideo(null)}
                 className="absolute top-6 right-6 z-10 bg-black/50 hover:bg-white hover:text-black p-3 rounded-full text-white transition-all backdrop-blur-md border border-white/10"
               >
-                <X className="w-6 h-6" />
+                <IconX className="w-6 h-6" />
               </button>
               <iframe
                 src={selectedVideo}

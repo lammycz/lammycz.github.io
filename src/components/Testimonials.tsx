@@ -1,5 +1,5 @@
 import { Section, FadeIn } from "./ui/Section";
-import { Quote, Play, X } from "lucide-react";
+import { IconQuote, IconPlayerPlay, IconX } from "@tabler/icons-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -209,7 +209,7 @@ export default function Testimonials() {
                     className="text-xs font-bold text-white uppercase tracking-widest hover:text-lammy-blue transition-colors flex items-center gap-2 group/btn"
                    >
                      Watch delivered trailer
-                     <Play className="w-3 h-3 fill-current group-hover/btn:scale-110 transition-transform" />
+                     <IconPlayerPlay className="w-3 h-3 fill-current group-hover/btn:scale-110 transition-transform" />
                    </button>
                 </div>
               </div>
@@ -240,7 +240,7 @@ export default function Testimonials() {
                 onClick={() => setSelectedVideo(null)}
                 className="absolute top-6 right-6 z-10 bg-black/50 hover:bg-white hover:text-black p-3 rounded-full text-white transition-all backdrop-blur-md border border-white/10"
               >
-                <X className="w-6 h-6" />
+                <IconX className="w-6 h-6" />
               </button>
               <iframe
                 src={selectedVideo}

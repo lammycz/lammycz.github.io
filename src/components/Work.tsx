@@ -127,7 +127,7 @@ const projects = [
   {
     title: "Minecraft Server Trailer #5 - Kaminari Craft",
     tier: "Pro",
-    image: "/assets/thumb/kaminaricraft-smp",
+    image: "/assets/thumb/kaminaricraft-smp.jpg",
     videoUrl: "https://www.youtube.com/embed/KR1dZ94ypmE?autoplay=1&mute=0",
   },
   {

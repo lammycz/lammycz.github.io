@@ -4,7 +4,7 @@ import { motion, useInView, useSpring, useTransform, AnimatePresence } from "mot
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { label: "PROJECTS DELIVERED", value: 20, suffix: "+" },
+  { label: "PROJECTS DELIVERED", value: 25, suffix: "+" },
   { label: "CLIENT SATISFACTION", value: 5, suffix: "/5" },
   { label: "YEARS EXPERIENCE", value: 7, suffix: "+" },
   { label: "AVERAGE RESPONSE TIME", value: 1, suffix: " hour" },

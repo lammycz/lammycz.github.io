@@ -5,147 +5,150 @@ import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
   {
-    id: 1,
+    title: "Minecraft Server Trailer #25 - Minecraft Clash Royal",
+    tier: "Pro",
+    image: "/assets/thumb/alex-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/gyVEUWHTAJA?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #24 - AthenaSurv",
+    tier: "Ultimate",
+    image: "/assets/thumb/mystery-thumbnail1.jpg",
+    videoUrl: "https://www.youtube.com/embed/E_nnPlSTRtE?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #23 - The Create Mod",
+    tier: "Starter",
+    image: "/assets/thumb/felix-create.jpg",
+    videoUrl: "https://www.youtube.com/embed/2bG_fLbYpWI?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #22 - FRESHPLAY",
+    tier: "Starter",
+    image: "/assets/thumb/freshplay.jpg",
+    videoUrl: "https://www.youtube.com/embed/gfhTycO8v0k?autoplay=1&mute=0",
+  },
+  {
     title: "Minecraft Server Trailer #21 - Qatar SMP",
     tier: "Pro",
     image: "/assets/thumb/bingos-quatarsmp.jpg",
     videoUrl: "https://www.youtube.com/embed/jJuzd37PYQg?autoplay=1&mute=0",
   },
-  {
-    id: 2,
+  {    
     title: "Minecraft Server Trailer #20 - VoxCraft Network",
     tier: "Pro",
     image: "/assets/thumb/voxcraftjpg.jpg",
     videoUrl: "https://www.youtube.com/embed/jhAMB5AWS10?autoplay=1&mute=0",
   },
-  {
-    id: 3,
+  {    
     title: "Minecraft Server Trailer #19 - OveraCraft",
     tier: "Pro",
     image: "/assets/thumb/brian-overacraft.jpg",
     videoUrl: "https://www.youtube.com/embed/hppUxGWLObE?autoplay=1&mute=0",
   },
-  {
-    id: 4,
+  {    
     title: "Minecraft Server Trailer #18 - LogiCore",
     tier: "Pro",
     image: "/assets/thumb/igor-logicore.jpg",
     videoUrl: "https://www.youtube.com/embed/M4z6opu0VQY?autoplay=1&mute=0",
   },
-  {
-    id: 5,
+  {    
     title: "Minecraft Server Trailer #17 - SCP Roleplay Server",
     tier: "Starter",
     image: "/assets/thumb/adam-scp-roleplay.jpg",
     videoUrl: "https://www.youtube.com/embed/hEBV8foikt8?autoplay=1&mute=0",
   },
-  {
-    id: 6,
+  {    
     title: "Minecraft Server Trailer #16 - World Of Dracora",
     tier: "Pro",
     image: "/assets/thumb/hampedumpe-drakora.jpg",
     videoUrl: "https://www.youtube.com/embed/DEb4Du1ncQg?autoplay=1&mute=0",
   },
-  {
-    id: 7,
+  {    
     title: "Minecraft Server Trailer #15 - Void SMP",
     tier: "Starter",
     image: "/assets/thumb/champixn-voidsmp.jpg",
     videoUrl: "https://www.youtube.com/embed/KBp2-UPQqSI?autoplay=1&mute=0",
   },
-  {
-    id: 8,
+  {    
     title: "Minecraft Server Trailer #14 - Cobblemon: Ball Stickers",
     tier: "Ultimate",
     image: "/assets/thumb/handyfon-cobblemon.jpg",
     videoUrl: "https://www.youtube.com/embed/zGwkhKbb-sI?autoplay=1&mute=0",
   },
-  {
-    id: 9,
+  {    
     title: "Minecraft Server Trailer #13 - Magical Lands",
     tier: "Starter",
     image: "/assets/thumb/magicallands.jpg",
     videoUrl: "https://www.youtube.com/embed/qt7x9PZUG3A?autoplay=1&mute=0",
   },
   {
-    id: 10,
     title: "Minecraft Server Trailer #12 - The Immersive Music Mod",
     tier: "Pro",
     image: "/assets/thumb/goldeaglep-music-mod.jpg",
     videoUrl: "https://www.youtube.com/embed/32JxlDLxgaU?autoplay=1&mute=0",
   },
   {
-    id: 11,
     title: "Minecraft Server Trailer #11 - VitalCraft",
     tier: "Ultimate",
     image: "/assets/thumb/vitalcraft-thumbnail2.jpg",
     videoUrl: "https://www.youtube.com/embed/7BXyFQXhdu4?autoplay=1&mute=0",
   },
   {
-    id: 12,
     title: "Minecraft Server Trailer #10 - VaporMC",
     tier: "Pro",
     image: "/assets/thumb/airhead-vapormc.jpg",
     videoUrl: "https://www.youtube.com/embed/bv5Awgnh9GA?autoplay=1&mute=0",
   },
   {
-    id: 13,
     title: "Minecraft Server Trailer #9 - Rescue",
     tier: "Pro",
     image: "/assets/thumb/imran-rescue.jpg",
     videoUrl: "https://www.youtube.com/embed/qdSDjlrjPT8?autoplay=1&mute=0",
   },
   {
-    id: 14,
     title: "Minecraft Server Trailer #8 - MoneyCraft",
     tier: "Ultimate",
     image: "/assets/thumb/natewinfrey-moneycraft.jpg",
     videoUrl: "https://www.youtube.com/embed/tfEGvqLBGGk?autoplay=1&mute=0",
   },
   {
-    id: 15,
     title: "Minecraft Server Trailer #7 - Panzerparty",
     tier: "Pro",
     image: "/assets/thumb/fritz-panzerparty.jpg",
     videoUrl: "https://www.youtube.com/embed/3DbDjrl_Go4?autoplay=1&mute=0",
   },
   {
-    id: 16,
     title: "Minecraft Server Trailer #6 - KnockFFA",
     tier: "Pro",
     image: "/assets/thumb/fritz-nockffa.jpg",
     videoUrl: "https://www.youtube.com/embed/mWvcDg8mXAM?autoplay=1&mute=0",
   },
   {
-    id: 17,
     title: "Minecraft Server Trailer #5 - Kaminari Craft",
     tier: "Pro",
-    image: "/assets/thumb/kaminaricraft",
+    image: "/assets/thumb/kaminaricraft-smp",
     videoUrl: "https://www.youtube.com/embed/KR1dZ94ypmE?autoplay=1&mute=0",
   },
   {
-    id: 19,
     title: "Minecraft Server Trailer #4 - Shadow Runes",
     tier: "Starter",
     image: "/assets/thumb/shadowrunes-smp.jpg",
     videoUrl: "https://www.youtube.com/embed/OFlBfF3evDE?autoplay=1&mute=0",
   },
   {
-    id: 20,
     title: "Minecraft Server Trailer #3 - Toxic SMP",
     tier: "Starter",
     image: "/assets/thumb/toxic-smp.jpg",
     videoUrl: "https://www.youtube.com/embed/Q0IBIqoh7Uc?autoplay=1&mute=0",
   },
   {
-    id: 21,
     title: "Minecraft Server Trailer #2 - SoNiceCitybuild",
     tier: "Starter",
     image: "/assets/thumb/sonicecitybuild-server.jpg",
     videoUrl: "https://www.youtube.com/embed/gAepC20HjZU?autoplay=1&mute=0",
   },
   {
-    id: 22,
     title: "Minecraft Server Trailer #1 - Superflat World",
     tier: "Pro",
     image: "/assets/thumb/superflat-world-trailer.jpg",
@@ -281,7 +284,7 @@ export default function Work() {
         <AnimatePresence mode="popLayout">
           {filteredProjects.map((project) => (
             <motion.div
-              key={project.id}
+              key={project.videoUrl}
               layout
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}

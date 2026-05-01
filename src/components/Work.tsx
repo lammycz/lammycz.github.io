@@ -5,6 +5,24 @@ import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
   {
+    title: "Minecraft Server Trailer #28 - RiftMC",
+    tier: "Starter",
+    image: "/assets/thumb/marksvlogs-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/gFulou0Az4M?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #27 - Killstreak",
+    tier: "Pro",
+    image: "/assets/thumb/alvkoscz-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/l7ZOHj2ow2s?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #26 - Cobblemon Empire",
+    tier: "Starter",
+    image: "/assets/thumb/bigmike-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/gmBHMD96jRI?autoplay=1&mute=0",
+  },
+  {
     title: "Minecraft Server Trailer #25 - Minecraft Clash Royal",
     tier: "Pro",
     image: "/assets/thumb/alex-server-trailer.jpg",

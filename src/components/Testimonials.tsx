@@ -5,9 +5,23 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
+    name: "marksvlogs",
+    role: "Server Owner",
+    text: "did a wonderful job will let them do other things for me in the future",
+    avatar: "/assets/clients/marksvlogs.png",
+    trailerUrl: "https://www.youtube.com/embed/gFulou0Az4M?autoplay=1&mute=0"
+  },
+  {
+    name: "alvkoscz",
+    role: "Server Owner",
+    text: "perfect work, did it fast and was just a perfect seller honestly.",
+    avatar: "/assets/clients/alvkoscz.png",
+    trailerUrl: "https://www.youtube.com/embed/l7ZOHj2ow2s?autoplay=1&mute=0"
+  },
+  {
     name: "alexhuhu",
     role: "Server Owner",
-    text: "This was pretty good! ",
+    text: "This was pretty good!",
     avatar: "/assets/clients/alexhuhu.png",
     trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
   },

@@ -5,6 +5,41 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
+    name: "leakyfence101",
+    role: "Server Owner",
+    text: "very good service ",
+    avatar: "/assets/clients/leakyfence101.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "redorbis",
+    role: "Server Owner",
+    text: "Very happy with the end project!",
+    avatar: "/assets/clients/redorbis.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "t0myxd",
+    role: "Server Owner",
+    text: "Excelent work!",
+    avatar: "/assets/clients/t0myxd.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "rageyh",
+    role: "Server Owner",
+    text: "The final result exceeded my expectations. Lammy was always available and incredibly patient throughout the entire process, my project was a fully custom Minecraft roleplay server, which made the briefing trickier than usual, but he handled every detail and revision with professionalism. Communication was smooth, turnaround times were respected, and he was genuinely open to feedback without ever pushing back on requests. The final trailer perfectly captures the 1970s atmosphere I was looking for, with great pacing, clean transitions and a cinematic feel that goes well beyond the standard Minecraft trailer style. Highly recommended for anyone looking for a video editor who actually cares about the project. Will definitely work with him again!",
+    avatar: "/assets/clients/rageyh.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
+    name: "damarcusthejr",
+    role: "Server Owner",
+    text: "The trailer was perfect. The editing, music, and gameplay clips all fit really well together and made it super engaging to watch. It really shows off the server in the best way and makes you want to join straight away.",
+    avatar: "/assets/clients/damarcusthejr.png",
+    trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+  },
+  {
     name: "marksvlogs",
     role: "Server Owner",
     text: "did a wonderful job will let them do other things for me in the future.",

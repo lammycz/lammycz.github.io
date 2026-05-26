@@ -5,6 +5,36 @@ import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
   {
+    title: "Minecraft Server Trailer #33 - Progression SMP",
+    tier: "Starter",
+    image: "/assets/thumb/leakyfence-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/dXHn_5SX93k?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #32 - Eldritch souls",
+    tier: "Ultimate",
+    image: "/assets/thumb/redorbis-map-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/Uo2_b_XCJjk?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #31 - Exodia",
+    tier: "Ultimate",
+    image: "/assets/thumb/t0myxd-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/EYAd4Ev0dCk?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #30 - Small Ville",
+    tier: "Ultimate",
+    image: "/assets/thumb/rageyh-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/eyhMv55sYAc?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #29 - Kyro SMP",
+    tier: "Pro",
+    image: "/assets/thumb/damarcusthejr-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/C4d3ko0NXkU?autoplay=1&mute=0",
+  },
+  {
     title: "Minecraft Server Trailer #28 - RiftMC",
     tier: "Starter",
     image: "/assets/thumb/marksvlogs-server-trailer.jpg",

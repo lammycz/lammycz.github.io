@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "marksvlogs",
     role: "Server Owner",
-    text: "did a wonderful job will let them do other things for me in the future",
+    text: "did a wonderful job will let them do other things for me in the future.",
     avatar: "/assets/clients/marksvlogs.png",
     trailerUrl: "https://www.youtube.com/embed/gFulou0Az4M?autoplay=1&mute=0"
   },

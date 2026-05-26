@@ -150,7 +150,7 @@ export default function Stats() {
                 Hi! I’m a creator with a passion for bringing ideas to life. I specialize in creating eye-catching Minecraft trailers and in-game animations. With over 5 million views on YouTube, I know what it takes to make content that captivates viewers. Let me help turn your server or project into something unforgettable!
               </p>
               <p>
-                With over 7 years of experience and 20+ projects delivered, I understand exactly what makes a server stand out in crowded markets.
+                With over 7 years of experience and 25+ projects delivered, I understand exactly what makes a server stand out in crowded markets.
               </p>
             </div>
           </FadeIn>

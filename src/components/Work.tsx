@@ -5,6 +5,42 @@ import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
   {
+    title: "Minecraft Server Trailer #39 - Raid Core",
+    tier: "Starter",
+    image: "/assets/thumb/ydvzinho-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/cf-XJaxHB-w?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #38 - Cubiq SMP",
+    tier: "Starter",
+    image: "/assets/thumb/archyxis-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/u4-YaEzhawc?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #37 - Weekend Warriors",
+    tier: "Pro",
+    image: "/assets/thumb/thesongsmith-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/CTO5YqBEMeU?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #36 - Blood Hunt",
+    tier: "Pro",
+    image: "/assets/thumb/tigrus0r-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/YgKy7Mvvfok?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #35 - MC RAZE",
+    tier: "Starter",
+    image: "/assets/thumb/YngSchubert-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/SwiKXXvKrI4?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #34 - MCRL Championship League",
+    tier: "Pro",
+    image: "/assets/thumb/halthor-mcsr-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/vWlZZOwNQPA?autoplay=1&mute=0",
+  },
+  {
     title: "Minecraft Server Trailer #33 - Progression SMP",
     tier: "Starter",
     image: "/assets/thumb/leakyfence-server-trailer.jpg",

@@ -5,6 +5,34 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
+    name: "ydvzinho",
+    role: "Server Owner",
+    text: "Cara, defino o trabalho dele em uma única palavra: SENSACIONAL. Transições, Coloração, tempo de resposta, comunicação tudo muito lindo e rápido. Resumindo: VALE MUITO A PENA, recomendo.",
+    avatar: "/assets/clients/ydvzinho.png",
+    trailerUrl: "https://www.youtube.com/embed/cf-XJaxHB-w?autoplay=1&mute=0"
+  },
+  {
+    name: "archyxis",
+    role: "Server Owner",
+    text: "Did a amazing work at the trailer!",
+    avatar: "/assets/clients/archyxis.png",
+    trailerUrl: "https://www.youtube.com/embed/u4-YaEzhawc?autoplay=1&mute=0"
+  },
+  {
+    name: "thesongsmith91",
+    role: "Server Owner",
+    text: "Went above and beyond my expectations.",
+    avatar: "/assets/clients/thesongsmith91.png",
+    trailerUrl: "https://www.youtube.com/embed/CTO5YqBEMeU?autoplay=1&mute=0"
+  },
+  {
+    name: "tigrush0r",
+    role: "Server Owner",
+    text: "Excellent freelancer! He delivered exactly what he promised and completed the job without any issues. Communication was smooth and he understood the requirements perfectly. The work was done on time and the quality was great. Would definitely recommend and will work with him again in the future. Very professional and reliable — 5 stars well deserved!",
+    avatar: "/assets/clients/tigrush0r.png",
+    trailerUrl: "https://www.youtube.com/embed/YgKy7Mvvfok?autoplay=1&mute=0"
+  },
+  {
     name: "leakyfence101",
     role: "Server Owner",
     text: "very good service ",
@@ -13,7 +41,7 @@ const testimonials = [
   },
   {
     name: "redorbis",
-    role: "Server Owner",
+    role: "Map Creator",
     text: "Very happy with the end project!",
     avatar: "/assets/clients/redorbis.png",
     trailerUrl: "https://www.youtube.com/embed/Uo2_b_XCJjk?autoplay=1&mute=0"

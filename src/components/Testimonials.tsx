@@ -5,6 +5,13 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
+    name: "xxx3z4xxx",
+    role: "Server Owner",
+    text: "Amazing work!",
+    avatar: "/assets/clients/xxx3z4xxx.png",
+    trailerUrl: "https://www.youtube.com/embed/vX3w5ayZm2U?autoplay=1&mute=0"
+  },
+  {
     name: "ydvzinho",
     role: "Server Owner",
     text: "Cara, defino o trabalho dele em uma única palavra: SENSACIONAL. Transições, Coloração, tempo de resposta, comunicação tudo muito lindo e rápido. Resumindo: VALE MUITO A PENA, recomendo.",

@@ -4,6 +4,12 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
+    {
+    title: "Minecraft Server Trailer #40 - ZRealms Skyblock",
+    tier: "Starter",
+    image: "/assets/thumb/xxx3z4xxx-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/vX3w5ayZm2U?autoplay=1&mute=0",
+  },
   {
     title: "Minecraft Server Trailer #39 - Raid Core",
     tier: "Starter",

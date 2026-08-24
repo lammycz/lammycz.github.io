@@ -4,7 +4,127 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
-    {
+  {
+    title: "Minecraft Server Trailer #60 - Crimsoncliff Castle",
+    tier: "Starter",
+    image: "/assets/thumb/stoica_sebi-map-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/em4QTkRoy_I?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #59 - HUGE SMP Event Edit",
+    tier: "Pro",
+    image: "/assets/thumb/svenderman-event-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/3Aj_rL_YMKc?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #58 - V3XCORE",
+    tier: "Ultimate",
+    image: "/assets/thumb/justmephiii-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/C_REveMp0mQ?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #57 - Voxel's Kills",
+    tier: "Pro",
+    image: "/assets/thumb/legit_omar-plugin-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/3li_9injIdU?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #56 - Lapida",
+    tier: "Starter",
+    image: "/assets/thumb/danielsdesignss-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/FJfl4xTJTc8?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #55 - HUGE SMP",
+    tier: "Pro",
+    image: "/assets/thumb/svenderman-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/XYv1PUTbpWI?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #54 - SCR SMP",
+    tier: "Pro",
+    image: "/assets/thumb/flo113-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/r5DX9GItW_0?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #53 - Ishraq MC",
+    tier: "Pro",
+    image: "/assets/thumb/omarmu00-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/N8Kh4wv2bFo?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #52 - DREADHOLD",
+    tier: "Ultimate",
+    image: "/assets/thumb/vishalc6h-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/3q5jxbdm1vk?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #51 - ELYSIA SMP",
+    tier: "Starter",
+    image: "/assets/thumb/zor4tox-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/d-cB01Z3JNY?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #50 - Miquella's Haligtree",
+    tier: "Pro",
+    image: "/assets/thumb/mehlyru-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/4FjwWkh4S-I?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #49 - VFL UPDATE 3.0",
+    tier: "Ultimate",
+    image: "/assets/thumb/eimohpvp-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/9ab2FoEgP0M?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #48 - MEDIEVAL SMP",
+    tier: "Pro",
+    image: "/assets/thumb/laurasophie0809-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/Dvs_OKX3znM?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #47 - PRO MINES",
+    tier: "Starter",
+    image: "/assets/thumb/lunavfx-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/dTVeY4r8aNo?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #46 - GENRIVALS",
+    tier: "Ultimate",
+    image: "/assets/thumb/matt_03-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/RtETOmmQnq8?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #45 - Pink Prison",
+    tier: "Ultimate",
+    image: "/assets/thumb/essense222-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/DFngetvdj8Q?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #44 - MMO RPG",
+    tier: "Pro",
+    image: "/assets/thumb/dzeka1-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/MwSkP7Hu_JQ?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #43 - Balonzo Network",
+    tier: "Pro",
+    image: "/assets/thumb/devlqw-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/t0qyQ_FeH_g?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #42 - JPAVION SMP",
+    tier: "Starter",
+    image: "/assets/thumb/qvzeed-server-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/6SmcBfG9KYg?autoplay=1&mute=0",
+  },
+  {
+    title: "Minecraft Server Trailer #41 - Tribute SMP",
+    tier: "Starter",
+    image: "/assets/thumb/chuchilla1-map-trailer.jpg",
+    videoUrl: "https://www.youtube.com/embed/mnMawKPDS-Y?autoplay=1&mute=0",
+  },
+  {
     title: "Minecraft Server Trailer #40 - ZRealms Skyblock",
     tier: "Starter",
     image: "/assets/thumb/xxx3z4xxx-server-trailer.jpg",

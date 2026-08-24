@@ -5,6 +5,83 @@ import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
   {
+    name: "stoica_sebi",
+    role: "Marketplace Creator",
+    text: "Exceeded my expectations by far, will for sure continue working with this seller. Amazing service, highly recommend !!",
+    avatar: "/assets/clients/stoica_sebi.png",
+    trailerUrl: "https://www.youtube.com/embed/em4QTkRoy_I?autoplay=1&mute=0"
+  },
+  {
+    name: "svenderman",
+    role: "Server Owner",
+    text: "Again, amazing work! I asked for more of a custom order wich he normaly does not do. But the results are amazing!",
+    avatar: "/assets/clients/svenderman.png",
+    trailerUrl: "https://www.youtube.com/embed/3Aj_rL_YMKc?autoplay=1&mute=0"
+  },
+  {
+    name: "justmephiii",
+    role: "Server Owner",
+    text: "Was fast, good and easy to communicate.",
+    avatar: "/assets/clients/justmephiii.png",
+    trailerUrl: "https://www.youtube.com/embed/C_REveMp0mQ?autoplay=1&mute=0"
+  },
+  {
+    name: "legit_omar",
+    role: "Plugin Creator",
+    text: "Awesome! Great person and great job. Smooth trailer, fast and flexible. Made some extra changes super quickly and targeted. Sympathetic and open to revisions and changes. Couldn't ask for a better one. He's definitely the trailer maker man!",
+    avatar: "/assets/clients/legit_omar.png",
+    trailerUrl: "https://www.youtube.com/embed/3li_9injIdU?autoplay=1&mute=0"
+  },
+  {
+    name: "flo113",
+    role: "Server Owner",
+    text: "Amazing worker fast and chill guy! ",
+    avatar: "/assets/clients/flo113.png",
+    trailerUrl: "https://www.youtube.com/embed/r5DX9GItW_0?autoplay=1&mute=0"
+  },
+  {
+    name: "vishalc6h",
+    role: "Server Owner",
+    text: "Was patient and made sure to do all my revisions. Best editor to work with and very professional!",
+    avatar: "/assets/clients/vishalc6h.png",
+    trailerUrl: "https://www.youtube.com/embed/3q5jxbdm1vk?autoplay=1&mute=0"
+  },
+  {
+    name: "eimohpvp",
+    role: "Server Owner",
+    text: "Exceeded all expectations, replied instantly to my messages even with the large time difference in between us. I really do recommend working with Lammy, dudes got insane talent!",
+    avatar: "/assets/clients/eimohpvp.png",
+    trailerUrl: "https://www.youtube.com/embed/9ab2FoEgP0M?autoplay=1&mute=0"
+  },
+  {
+    name: "laurasophie0809",
+    role: "Server Owner",
+    text: "A really lovely video 🥰 Professional execution, very friendly, and my wishes were fully met. I’d happily order again 💕",
+    avatar: "/assets/clients/laurasophie0809.png",
+    trailerUrl: "https://www.youtube.com/embed/Dvs_OKX3znM?autoplay=1&mute=0"
+  },
+  {
+    name: "matt_03",
+    role: "Server Owner",
+    text: "He did a wonderful job on my trailer and he completed it very fast!",
+    avatar: "/assets/clients/matt_03.png",
+    trailerUrl: "https://www.youtube.com/embed/RtETOmmQnq8?autoplay=1&mute=0"
+  },
+  {
+    name: "essense222",
+    role: "Server Owner",
+    text: "best option for minecraft trailers",
+    avatar: "/assets/clients/essense222.png",
+    trailerUrl: "https://www.youtube.com/embed/DFngetvdj8Q?autoplay=1&mute=0"
+  },
+  {
+    name: "dzeka1",
+    role: "Server Owner",
+    text: "did everything quickly and efficiently ",
+    avatar: "/assets/clients/dzeka1.png",
+    trailerUrl: "https://www.youtube.com/embed/MwSkP7Hu_JQ?autoplay=1&mute=0"
+  },
+  {
     name: "xxx3z4xxx",
     role: "Server Owner",
     text: "Amazing work!",

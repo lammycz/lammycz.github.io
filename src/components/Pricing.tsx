@@ -5,7 +5,7 @@ import { IconCheck, IconClock, IconRotateClockwise, IconX, IconVideo, IconSparkl
 const tiers = [
   {
     name: "Starter Trailer",
-    price: "$20",
+    price: "$25",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Color grading",
     features: [
       { text: "3-day delivery", icon: IconClock, included: true },
@@ -21,7 +21,7 @@ const tiers = [
   },
   {
     name: "Pro Trailer",
-    price: "$35",
+    price: "$40",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Effects Speed ramps Color grading",
     features: [
       { text: "4-day delivery", icon: IconClock, included: true },

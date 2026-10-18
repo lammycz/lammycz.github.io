@@ -8,7 +8,7 @@ const tiers = [
     price: "$25",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Color grading",
     features: [
-      { text: "3-day delivery", icon: IconClock, included: true },
+      { text: "4-day delivery", icon: IconClock, included: true },
       { text: "1 Revision", icon: IconRotateClockwise, included: true },
       { text: "Up to 1 minute running time", icon: IconVideo, included: true },
       { text: "Color grading", icon: IconSparkles, included: true },
@@ -24,7 +24,7 @@ const tiers = [
     price: "$40",
     description: "Server/map Trailer 60 Seconds 1080P 120 FPS Titles Effects Speed ramps Color grading",
     features: [
-      { text: "4-day delivery", icon: IconClock, included: true },
+      { text: "5-day delivery", icon: IconClock, included: true },
       { text: "2 Revisions", icon: IconRotateClockwise, included: true },
       { text: "Up to 1 minute running time", icon: IconVideo, included: true },
       { text: "Color grading", icon: IconSparkles, included: true },
@@ -40,7 +40,7 @@ const tiers = [
     price: "$60",
     description: "Server/map Trailer 120 Seconds 1080P 120 FPS Effects Transitions Speed ramps In-game animation",
     features: [
-      { text: "5-day delivery", icon: IconClock, included: true },
+      { text: "7-day delivery", icon: IconClock, included: true },
       { text: "3 Revisions", icon: IconRotateClockwise, included: true },
       { text: "Up to 2 minutes running time", icon: IconVideo, included: true },
       { text: "Color grading", icon: IconSparkles, included: true },

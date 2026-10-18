@@ -4,6 +4,118 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const testimonials = [
+    {
+    name: "jamescavanau462",
+    role: "Server Owner",
+    text: "Made me a fantastic trailer, extremely cooperative and easy to work with, along with the quality, I am more than satisfied with the outcome.",
+    avatar: "/assets/clients/jamescavanau462.png",
+    trailerUrl: "https://www.youtube.com/embed/Kg1n9aCc9Mo?autoplay=1&mute=0"
+  },
+  {
+    name: "brianpp1",
+    role: "Server Owner",
+    text: "Lammy is a goat, ordered 2 trailers off him.",
+    avatar: "/assets/clients/brianpp1.png",
+    trailerUrl: "https://www.youtube.com/embed/r2PuTOKM3rg?autoplay=1&mute=0"
+  },
+  {
+    name: "leowatcham",
+    role: "Server Owner",
+    text: "Amazing freelancer, always quick to respond and fix any issues that I had quickly.",
+    avatar: "/assets/clients/leowatcham.png",
+    trailerUrl: "https://www.youtube.com/embed/h7EOP-5vPJI?autoplay=1&mute=0"
+  },
+  {
+    name: "dynajj",
+    role: "Server Owner",
+    text: "Anmazing and fast delivery. Looking forward to work again with you in the future!",
+    avatar: "/assets/clients/dynajj.png",
+    trailerUrl: "https://www.youtube.com/embed/6NGiEdbo?autoplay=1&mute=0"
+  },
+  {
+    name: "blogvlogs",
+    role: "Server Owner",
+    text: "They did an amazing job!",
+    avatar: "/assets/clients/blogvlogs.png",
+    trailerUrl: "https://www.youtube.com/embed/FhPf34_lPlI?autoplay=1&mute=0"
+  },
+  {
+    name: "zbeenblossom15",
+    role: "Server Owner",
+    text: "Awesome to work with!",
+    avatar: "/assets/clients/zbeenblossom15.png",
+    trailerUrl: "https://www.youtube.com/embed/DGn0prKIsbc?autoplay=1&mute=0"
+  },
+  {
+    name: "linus0222",
+    role: "Server Owner",
+    text: "Very very good Trailer for our Server. Thanks!",
+    avatar: "/assets/clients/linus0222.png",
+    trailerUrl: "https://www.youtube.com/embed/b-5mur1VI80?autoplay=1&mute=0"
+  },
+  {
+    name: "snokay",
+    role: "Server Owner",
+    text: "Best worker ever if you need a trailer get this men now!",
+    avatar: "/assets/clients/snokay.png",
+    trailerUrl: "https://www.youtube.com/embed/KEC7Js7tLhk?autoplay=1&mute=0"
+  },
+  {
+    name: "games_and_coffe",
+    role: "Server Owner",
+    text: "orderd my video and this person got straigt to work i realy love the end result",
+    avatar: "/assets/clients/games_and_coffe.png",
+    trailerUrl: "https://www.youtube.com/embed/91Sd9aPry_I?autoplay=1&mute=0"
+  },
+  {
+    name: "alimohsen08",
+    role: "Server Owner",
+    text: "amazing service, very punctual and 10/10 customer service",
+    avatar: "/assets/clients/alimohsen08.png",
+    trailerUrl: "https://www.youtube.com/embed/emERQwMMrLg?autoplay=1&mute=0"
+  },
+  {
+    name: "m1chx7",
+    role: "Server Owner",
+    text: "I will definetly buy with him again he is amazing at his work!",
+    avatar: "/assets/clients/m1chx7.png",
+    trailerUrl: "https://www.youtube.com/embed/ZACTc5d5aG4?autoplay=1&mute=0"
+  },
+  {
+    name: "zeusxx_",
+    role: "Server Owner",
+    text: "For this price range, I got the best trailer. I can recommend it to anyone I'm extremely satisfied!",
+    avatar: "/assets/clients/zeusxx_.png",
+    trailerUrl: "https://www.youtube.com/embed/lwJhsuYwBZA?autoplay=1&mute=0"
+  },
+  {
+    name: "stoica_sebi",
+    role: "Marketplace Creator",
+    text: "Everything was perfect ! Thanks so much for another great trailer !",
+    avatar: "/assets/clients/stoica_sebi.png",
+    trailerUrl: "https://www.youtube.com/embed/iTyGVh6T0Nw?autoplay=1&mute=0"
+  },
+  {
+    name: "loxplayz2",
+    role: "Server Owner",
+    text: "Amazing seller! He does it job very well and gave me a well done trailer for my server :) can 100% recommend this guy!",
+    avatar: "/assets/clients/loxplayz2.png",
+    trailerUrl: "https://www.youtube.com/embed/TSH8n_LXLLA?autoplay=1&mute=0"
+  },
+  {
+    name: "meteoritefire98",
+    role: "Server Owner",
+    text: "Exceptional work, very accommodating regarding any changes; if I had to point out one negative, I’d say the price could be lower.",
+    avatar: "/assets/clients/meteoritefire98.png",
+    trailerUrl: "https://www.youtube.com/embed/CkpSFdOGuYk?autoplay=1&mute=0"
+  },
+  {
+    name: "anton_fzn",
+    role: "Server Owner",
+    text: "just a nice guy",
+    avatar: "/assets/clients/anton_fzn.png",
+    trailerUrl: "https://www.youtube.com/embed/wEYBJfN2Kp8?autoplay=1&mute=0"
+  },
   {
     name: "stoica_sebi",
     role: "Marketplace Creator",
